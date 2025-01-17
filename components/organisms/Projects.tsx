@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="grid flex-col w-full h-full gap-10 px-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         <ProjectCard
           src="/srifoton.jpg"
-          title="SRIFOTONG"
+          title="SRIFOTON"
           description="Wadah bagi mahasiswa seluruh Indonesia untuk menuangkan kreativitas dan kemampuan dalam menggunakan dan mengembangkan teknologi yang ada dalam bentuk seminar dan berbagai macam perlombaan."
         />
         <ProjectCard
