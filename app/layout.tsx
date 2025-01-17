@@ -12,9 +12,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "OPREC HMIF 2024",
-  description:
-    "Website yang dibuat untuk pendaftaran calon staff HMIF UNSRI periode 2024",
+  title: "OPREC HMIF 2025",
+  description: "Website yang dibuat untuk pendaftaran calon staff HMIF UNSRI periode 2025",
   icons: {
     icon: "/logo.png",
     shortcut: "/logo.png",
@@ -22,11 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={`${poppins.className} bg-[#020a14] overflow-x-hidden`}>
